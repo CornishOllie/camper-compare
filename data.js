@@ -218,8 +218,8 @@ window.SECTIONS = [
 ]},
 { id: "viewing", name: "Seeing it and buying it", items: [
   { id: "distance", name: "Distance from Cornwall", w: 2, hint: "3 = an easy day trip",
-    facts: { H: "TBC where Simon is.", RH: "Bradford on Avon, Wiltshire: about 3 hours. Visit proposed for Sun 15 Nov.", RG: "Dumfries, Scotland: about 7 to 8 hours each way." },
-    claude: [null, 3, 0] },
+    facts: { H: "Mansfield, Notts: about 5 hours each way. Could fit a Manchester trip.", RH: "Bradford on Avon, Wiltshire: about 3 hours. Visit proposed for Sun 15 Nov.", RG: "Dumfries, Scotland: about 7 to 8 hours each way." },
+    claude: [1, 3, 0] },
   { id: "visits", name: "Trips needed to view, buy and collect", w: 3, hint: "3 = one trip",
     facts: { H: "One: view, test drive, pay and drive home.", RH: "One or two: view, then collect once the Ranger is prepared and up-plated.", RG: "Two or three: see a unit and measure the truck, then delivery and fitting (4-month build between)." },
     claude: [3, 2, 0] },
